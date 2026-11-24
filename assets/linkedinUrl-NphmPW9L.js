@@ -1,0 +1,1 @@
+function t(r){if(typeof r!="string")return null;let n;try{n=new URL(r.trim())}catch{return null}return n.protocol!=="https:"||n.hostname!=="linkedin.com"&&n.hostname!=="www.linkedin.com"||n.username!==""||n.password!==""||n.port!==""?null:n.href}export{t as l};

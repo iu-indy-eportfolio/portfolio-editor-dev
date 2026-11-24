@@ -1,0 +1,1 @@
+import{O as s,aH as o,j as r,dw as a}from"./index-CWAvRbZo.js";function c(){const{user:e}=s(),{search:t}=o();return r.jsx(a,{to:`/instructor/s/${encodeURIComponent(e??"")}${t}`,replace:!0})}export{c as LegacyStudentRedirect};
